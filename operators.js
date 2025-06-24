@@ -75,3 +75,11 @@ console.log("cond1 || cond2", a < b || a === 6); //Logical OR Operator
 
 console.log("!(6<5)", !(a < b)); //Logical NOT Operator
 console.log("!(a === 6)", !(a === 6)); //Logical NOT Operator
+
+// -----------------------------------------------------------------------------------------------------
+
+// Ternary Operators (condition ? true output : false output)
+let age = 25;
+
+let result = age>=18 ? "adult" : "not adult";
+console.log(result);
